@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：宣傳、派發宣傳物資、廣播介紹午息活動。</li>
-                            <li>午息：進行「Champions!免費影即有體驗」、張貼海報。</li>
+                            <li>午息：進行「Champions!免費即影即有體驗」、張貼海報。</li>
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
                         </ul>
                         <p class="countdown-container">

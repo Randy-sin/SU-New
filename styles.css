@@ -60,3 +60,75 @@ footer .social-icons i {
 footer .social-icons .fa-school {
     font-size: 20px; /* 进一步减小学校图标的大小 */
 }
+
+/* 现有的CSS代码 */
+
+/* ... */
+
+/* 响应式设计部分 */
+
+/* 基础样式 */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 响应式图片 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Flexbox 布局 */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+/* Grid 布局 */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* 媒体查询 */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .flex-item {
+    flex: 1 1 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 现有的CSS代码继续 */
+
+/* ... */
