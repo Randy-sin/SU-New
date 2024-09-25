@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>動主題：</strong>「Champions!尋寶遊戲」（Champions! Treasure Hunt）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
-                            <li>上課前：宣傳��派發宣傳物資、重申尋寶遊戲的線索與起點信息（全校學生可以自由參與</li>
+                            <li>上課前：宣傳、派發宣傳物資、重申尋寶遊戲的線索與起點信息（全校學生可以自由參與</li>
                             <li>小息：繼續尋寶遊戲，並引導參與者在校園內不同地尋找線索，解答問題。</li>
                             <li>午息：在操場進行random dance隨機舞蹈，邀請舞社的同學前來表演。</li>
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
