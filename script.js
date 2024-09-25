@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </p>
                     </div>
                     <div class="event-card">
-                        <h3>10月3日 – 宣傳期第四天</h3>
+                        <h3>10月3號 – 宣傳期第四天</h3>
                         <p><strong>活動主題：</strong>「Champions!運動日」（Champions! Sports Day）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
