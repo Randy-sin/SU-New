@@ -127,6 +127,97 @@ img {
   .grid-container {
     grid-template-columns: 1fr;
   }
+
+  /* Logo和标题区域优化 */
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 80px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  /* 导航按钮优化 */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  nav ul li a {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+
+  /* 页面信息显示优化 */
+  #content {
+    padding: 15px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  /* 文字排版优化 */
+  p {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+
+  /* 成员网格优化 */
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .member-card {
+    height: auto;
+    padding: 10px;
+  }
+
+  .member-position {
+    font-size: 0.9em;
+  }
+
+  .member-name {
+    font-size: 0.8em;
+  }
+
+  /* 联系方式部分优化 */
+  .contact-info p {
+    font-size: 0.85em;
+  }
+
+  .email-link {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  /* 页脚优化 */
+  footer {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+  .social-links {
+    margin-top: 10px;
+  }
 }
 
 /* 现有的CSS代码继续 */
