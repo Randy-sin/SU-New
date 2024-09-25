@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 
                 <h3 class="section-title">競選目標</h3>
-                <p>Champions學生會的核心競選目標是實現"娛樂與學術兼並"，為我校學生創造一個充滿活力、創新與支持的校園環境。我們相信，學術與娛樂並非對立，而是可以相輔相成，讓學生在輕鬆愉的氛圍中，提升學習效果和��長。</p>
+                <p>Champions學生會的核心競選目標是實現"娛樂與學術兼並"，為我校學生創造一個充滿活力、創新與支持的校園環境。我們相信，學術與娛樂並非對立，而是可以相輔相成，讓學生在輕鬆愉快的氛圍中，提升學習效果和品質。</p>
                 <h4 class="blue-text">1. 增強學術資源與支持</h4>
                 <p>我們將積極擴大學術資源，為同學們提供更豐富、更靈活的學習機會，包括與其他學校交換模擬卷、設立"圖書館補習員"計劃，並引入"數學小鎮"活動，為常見學術問題提供實時解答，幫助同學們應對學習中的各種挑戰。</p>
                 <h4 class="blue-text">2. 促進娛樂與學術的結合</h4>
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4 class="blue-text">3. 加強對外聯繫與合作</h4>
                 <p>Champions學生會將打破僅側重校內事務的傳統，積極促進對外交流與合作。我們將組織與其他學校的學術和文化交流活動，為同學們提供拓展視野、增強社會實踐能力的機會。同時，我們會與外部機構合作，引入更多升學和職業規劃指導，幫助同學們更好地為未來做準備</p>
                 <h4 class="blue-text">4. 提升校園歸屬感與學生權益</h4>
-                <p>我們將不斷改善校設，��在校園內推動多關於學生權益的活動，使每一位同學都能感受到被重視和尊重。我們還將開展定期調查，傾聽同學們的需求與建議，確保學生會的每一項工作都切實服務於同學的利益。</p>
+                <p>我們將不斷改善校園設施，在校園內推動多關於學生權益的活動，使每一位同學都能感受到被重視和尊重。我們還將開展定期調查，傾聽同學們的需求與建議，確保學生會的每一項工作都切實服務於同學的利益。</p>
                 <p><strong>Champions學生會以<span class="blue-text">「探索Champions，成為Champions，超越Champions」</span>的精神，致力於在學術與娛樂中促進每位同學的成長，激發他們探索潛能、實現夢想並突破自我。</strong></p>
                 `;
             case 'news':
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>動主題：</strong>「Champions!尋寶遊戲」（Champions! Treasure Hunt）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
-                            <li>上課前：宣傳、派發宣傳物資、重申尋寶遊戲的線索與起點信息（全校學生可以自由參與</li>
+                            <li>上課前：宣傳��派發宣傳物資、重申尋寶遊戲的線索與起點信息（全校學生可以自由參與</li>
                             <li>小息：繼續尋寶遊戲，並引導參與者在校園內不同地尋找線索，解答問題。</li>
                             <li>午息：在操場進行random dance隨機舞蹈，邀請舞社的同學前來表演。</li>
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
@@ -351,36 +351,169 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 `;
             case 'school-affairs':
-                return '<h2><i class="fas fa-school"></i> 校内事務</h2>' +
-                    '<p style="margin-bottom: 1.5em;">同學們應關心本校事務，學生會不僅是學生的代，也應積極參與學校事務。Champions抱持開放態度，不僅為學生發聲，還鼓勵大家親自參與，詳下</p>' +
-                    '<h3 class="blue-text" style="margin-top: 1.5em; margin-bottom: 1em;">i) 多元活動、動靜皆宜</h3>' +
-                    '<p style="margin-bottom: 1.5em;">舉辦不同課外活動，包括：</p>' +
-                    '<ol style="margin-bottom: 1.5em;">' +
-                    '<li style="margin-bottom: 0.75em;">羽毛球比賽</li>' +
-                    '<li style="margin-bottom: 0.75em;">三人籃球</li>' +
-                    '<li style="margin-bottom: 0.75em;">排球比賽</li>' +
-                    '<li style="margin-bottom: 0.75em;">萬聖節trick or treat</li>' +
-                    '<li style="margin-bottom: 0.75em;">聖誕聯歡（爭取便服日）</li>' +
-                    '<li style="margin-bottom: 0.75em;">尋找利是</li>' +
-                    '<li style="margin-bottom: 0.75em;">Random dance</li>' +
-                    '<li style="margin-bottom: 0.75em;">Easter尋蛋</li>' +
-                    '<li style="margin-bottom: 0.75em;">電競比賽</li>' +
-                    '<li style="margin-bottom: 0.75em;">迎新活動</li>' +
-                    '<li style="margin-bottom: 0.75em;">歌唱賽</li>' +
-                    '</ol>' +
-                    '<h3 class="blue-text" style="margin-top: 1.5em; margin-bottom: 1em;">ii) 學術發展、開發潛能</h3>' +
-                    '<ol start="12" style="margin-bottom: 1.5em;">' +
-                    '<li style="margin-bottom: 0.75em;">聯校oral</li>' +
-                    '<li style="margin-bottom: 0.75em;">交換mock卷</li>' +
-                    '<li style="margin-bottom: 0.75em;">尖子策略交流會</li>' +
-                    '</ol>' +
-                    '<h3 class="blue-text" style="margin-top: 1.5em; margin-bottom: 1em;">iii) 師生同樂、樂也融融</h3>' +
-                    '<ol start="15" style="margin-bottom: 1.5em;">' +
-                    '<li style="margin-bottom: 0.75em;">敬師週　(送小禮物給老師、猜猜我是誰、給老師的話)</li>' +
-                    '<li style="margin-bottom: 0.75em;">各類師生比賽 (籃球，足球)</li>' +
-                    '<li style="margin-bottom: 0.75em;">師生烹飪大賽 (同學請老師組隊���加)</li>' +
-                    '<li style="margin-bottom: 0.75em;">校長面對面</li>' +
-                    '</ol>';
+                const schoolAffairsStyle = document.createElement('style');
+                schoolAffairsStyle.textContent = `
+                    .school-affairs-container {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                        gap: 20px;
+                        padding: 20px;
+                    }
+                    .activity-card {
+                        background-color: #ffffff;
+                        border-radius: 10px;
+                        padding: 15px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                        transition: all 0.3s ease;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .activity-card:hover {
+                        transform: translateY(-5px);
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                    }
+                    .activity-icon {
+                        font-size: 2em;
+                        margin-bottom: 10px;
+                        color: #007bff;
+                    }
+                    .activity-title {
+                        font-size: 1.1em;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                        text-align: center;
+                    }
+                    .activity-description {
+                        font-size: 0.9em;
+                        text-align: center;
+                        color: #666;
+                    }
+                    .activity-section {
+                        margin-bottom: 30px;
+                    }
+                    .activity-section-title {
+                        font-size: 1.3em;
+                        color: #007bff;
+                        margin-bottom: 15px;
+                        border-bottom: 2px solid #007bff;
+                        padding-bottom: 5px;
+                    }
+                `;
+                document.head.appendChild(schoolAffairsStyle);
+
+                return `
+                    <h2><i class="fas fa-school"></i> 校內事務</h2>
+                    <p>同學們應關心本校事務，學生會不僅是學生的代表，也應積極參與學校事務。Champions抱持開放態度，不僅為學生發聲，還鼓勵大家親自參與。</p>
+                    
+                    <div class="activity-section">
+                        <h3 class="activity-section-title">多元活動、動靜皆宜</h3>
+                        <div class="school-affairs-container">
+                            <div class="activity-card">
+                                <i class="fas fa-feather-alt activity-icon"></i>
+                                <div class="activity-title">羽毛球比賽</div>
+                                <div class="activity-description">展現你的球技，與同學切磋</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-basketball-ball activity-icon"></i>
+                                <div class="activity-title">三人籃球</div>
+                                <div class="activity-description">組隊參加，享受籃球的樂趣</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-volleyball-ball activity-icon"></i>
+                                <div class="activity-title">排球比賽</div>
+                                <div class="activity-description">團隊合作，共創佳績</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-ghost activity-icon"></i>
+                                <div class="activity-title">萬聖節 trick or treat</div>
+                                <div class="activity-description">體驗西方節日文化</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-gifts activity-icon"></i>
+                                <div class="activity-title">聖誕聯歡</div>
+                                <div class="activity-description">共度歡樂聖誕時光</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-search-dollar activity-icon"></i>
+                                <div class="activity-title">尋找利是</div>
+                                <div class="activity-description">新年活動，樂趣無窮</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-music activity-icon"></i>
+                                <div class="activity-title">Random dance</div>
+                                <div class="activity-description">隨機舞蹈，展現你的舞姿</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-egg activity-icon"></i>
+                                <div class="activity-title">Easter尋蛋</div>
+                                <div class="activity-description">復活節尋蛋活動</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-gamepad activity-icon"></i>
+                                <div class="activity-title">電競比賽</div>
+                                <div class="activity-description">展現你的遊戲技巧</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-user-friends activity-icon"></i>
+                                <div class="activity-title">迎新活動</div>
+                                <div class="activity-description">歡迎新同學加入我們的大家庭</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-microphone activity-icon"></i>
+                                <div class="activity-title">歌唱賽</div>
+                                <div class="activity-description">展現你的歌喉，成為校園歌手</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-section">
+                        <h3 class="activity-section-title">學術發展、開發潛能</h3>
+                        <div class="school-affairs-container">
+                            <div class="activity-card">
+                                <i class="fas fa-comments activity-icon"></i>
+                                <div class="activity-title">聯校oral</div>
+                                <div class="activity-description">提升口語能力，與他校交流</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-exchange-alt activity-icon"></i>
+                                <div class="activity-title">交換mock卷</div>
+                                <div class="activity-description">與他校交換模擬試卷，擴展視野</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-brain activity-icon"></i>
+                                <div class="activity-title">尖子策略交流會</div>
+                                <div class="activity-description">與優秀同學交流學習心得</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-section">
+                        <h3 class="activity-section-title">師生同樂、樂也融融</h3>
+                        <div class="school-affairs-container">
+                            <div class="activity-card">
+                                <i class="fas fa-apple-alt activity-icon"></i>
+                                <div class="activity-title">敬師週</div>
+                                <div class="activity-description">向老師表達感謝之情</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-futbol activity-icon"></i>
+                                <div class="activity-title">師生比賽</div>
+                                <div class="activity-description">籃球、足球等師生同樂活動</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-utensils activity-icon"></i>
+                                <div class="activity-title">師生烹飪大賽</div>
+                                <div class="activity-description">與老師組隊，展現廚藝</div>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-user-tie activity-icon"></i>
+                                <div class="activity-title">校長面對面</div>
+                                <div class="activity-description">與校長直接交流，表達意見</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
             case 'welfare':
                 // 创建样式标签
                 const style = document.createElement('style');
@@ -547,16 +680,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="umbrella-service">
                         <h2 class="umbrella-title">借用雨傘服務</h2>
                         <div class="umbrella-description">
-                            <p>為了方便同學們在雨天緊急使用，我們學生會提供「借用雨傘」服務。每次借用需繳納 80港幣押金，並且需要在 SU（即小食部）旁邊 登記。借用的雨傘必須在 次日歸還，否則將扣除押金，並影響後續借用資格。</p>
+                            <p>為了方便同學們在雨天緊急使用，我們學生會提供「借用雨傘」服務。每次借用需繳納 80港幣押金，並且需要在 SU（即小食部旁邊） 登記。借用的雨傘必須在 次日歸還，否則將扣除押金，並影響後續借用資格。</p>
                         </div>
                         <h3>借用流程：</h3>
                         <div class="umbrella-steps">
                             <div class="step">
                                 <i class="fas fa-clipboard-list"></i>
-                                <p>
-                                    <span>1. 前往 SU</span>
-                                    <span>（即小食部旁邊）登記</span>
-                                </p>
+                                <p>1. 前往 SU（即小食部旁邊）登記</p>
                             </div>
                             <div class="step">
                                 <i class="fas fa-dollar-sign"></i>
