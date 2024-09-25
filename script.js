@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </p>
                     </div>
                     <div class="event-card">
-                        <h3>10月8日 宣傳期第七天</h3>
+                        <h3>10月8號 – 宣傳期第七天</h3>
                         <p><strong>活動主題：</strong>「Champions!創意日」（Champions! Creativity Day）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </p>
                     </div>
                     <div class="event-card">
-                        <h3>10月9日  宣傳期第八天</h3>
+                        <h3>10月9號 – 宣傳期第八天</h3>
                         <p><strong>活動主題：</strong>「Champions!決戰」（Champions! Showdown Day）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
