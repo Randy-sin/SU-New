@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     '<p><i class="far fa-calendar-alt"></i> 日期：2024年9月27日</p>' +
                     '<p>我們誠摯邀請所有同學參與 Champions！候選內閣的首次宣傳活動。屆時我們將介紹我們的理念、目標和計劃。讓我們一起探索如何為學校帶來積極的改變！</p></li>' +
                     '<li><h3>學生會選舉即將開始</h3>' +
-                    '<p><i class="far fa-calendar-alt"></i> 日期：2024年10月16日</p>' +
+                    '<p><i class="far fa-calendar-alt"></i> 日期：2024年10月18日</p>' +
                     '<p>學生會選舉將於10月16正式開始。我們鼓勵所有同學積極參與，為自己心目中的最佳候選內閣投下寶貴的一票。讓我們一起塑造學的未來！</p></li>' +
                     '</ul>';
             case 'events':
