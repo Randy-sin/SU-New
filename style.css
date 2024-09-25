@@ -1,0 +1,416 @@
+:root {
+    --main-color: #3f51b5; /* 更柔和的蓝色 */
+    --accent-color: #ff4081; /* 粉红色作为强调色 */
+    --text-color: #333333; /* 深灰色文字 */
+    --background-color: #f5f5f5; /* 浅灰色背景 */
+}
+
+body {
+    font-family: 'Microsoft JhengHei', 'PingFang TC', 'STHeitiTC-Light', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: linear-gradient(45deg, var(--main-color), #5c6bc0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative; /* 添加这行 */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    letter-spacing: 2px;
+    color: white;
+}
+
+h2 {
+    color: var(--main-color);
+    border-bottom: 3px solid #4169e1;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a i {
+    margin-right: 5px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 30px;
+}
+
+.content-section {
+    margin: 20px 0;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.content-section:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #4169e1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+#search-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.members-table th {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.members-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.event-list > li:hover, .welfare-list li:hover {
+    background-color: #f2f2f2;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+mark {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.search-result:hover {
+    border-left: 5px solid var(--accent-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: white;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: var(--accent-color);
+}
+
+/* 删除之前的 .social-icon-img 相关样式 */
+
+/* 添加一些额外的样式来增强视觉效果 */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* 为不同部分添加独特的样式 */
+#home, #news, #events, #school-affairs, #welfare, #members, #contact {
+    border-left: 5px solid var(--accent-color);
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    z-index: -1;
+}
+
+/* 删除与语言切换相关的样式 */
+/* 
+.language-switch,
+#langToggle,
+#langToggle span,
+#langToggle .lang-zh,
+#langToggle .lang-en,
+#langToggle.english .lang-zh,
+#langToggle.english .lang-en,
+#langToggle:hover {
+    这些样式已被注释掉
+}
+*/
+
+/* 其他样式保持不变 */
+
+.search-container {
+    position: absolute; /* 改为绝对定位 */
+    top: 20px; /* 距离顶部的距离 */
+    right: 20px; /* 距离右侧的距离 */
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 150px; /* 稍微减小宽度 */
+    font-size: 14px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* 删除之前的 .highlight-box 相关样式 */
+
+/* 添加新的蓝色文字样式 */
+.blue-text {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+/* 为标题添加样式 */
+.section-title {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.slogan-highlight {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--main-color);
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(63, 81, 181, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.slogan-highlight:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* 在文件末尾添加以下样式 */
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.member-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background-color: var(--main-color);
+    color: white;
+}
+
+.member-position {
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.member-card:hover .member-position {
+    color: var(--accent-color);
+}
+
+.member-name {
+    font-size: 1.1em;
+}
+
+.member-card:hover .member-name {
+    color: white;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.event-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.event-card h3 {
+    color: var(--main-color);
+    margin-top: 0;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+}
+
+.event-card p {
+    margin: 10px 0;
+}
+
+.event-card ul {
+    padding-left: 20px;
+}
+
+.event-card li {
+    margin-bottom: 5px;
+}
+
+.social-icon {
+    width: 30px;  /* 调整为与Instagram图标相同的大小 */
+    height: 30px;
+    margin: 0 10px;
+}
+
+.image-carousel {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.image-carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-carousel img.active {
+    opacity: 1;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-arrow.left {
+    left: 10px;
+}
+
+.carousel-arrow.right {
+    right: 10px;
+}

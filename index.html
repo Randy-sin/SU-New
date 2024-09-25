@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champions！候選內閣</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .countdown-container {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .countdown-label {
+            color: #333;
+            margin-right: 5px;
+        }
+        .countdown {
+            color: #007bff;
+            font-size: 1.1em;
+        }
+        .email-link {
+            background-color: #007bff;
+            color: white;
+            padding: 2px 5px;
+            border-radius: 3px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .email-link:hover {
+            background-color: #0056b3;
+        }
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding: 30px;
+            justify-content: center;
+        }
+        @media (max-width: 1200px) {
+            .members-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .members-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .member-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 180px;
+            overflow: hidden;
+            position: relative;
+        }
+        .member-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(224, 242, 255, 0), rgba(224, 242, 255, 0.8));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .member-card:hover::before {
+            opacity: 1;
+        }
+        .member-position {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+            transition: color 0.3s ease;
+        }
+        .member-card:hover .member-position {
+            color: #005cbf;
+        }
+        .member-name {
+            font-size: 0.9em;
+            color: #333;
+            transition: color 0.3s ease;
+            line-height: 1.4;
+            position: relative;
+            z-index: 1;
+        }
+        .member-card:hover .member-name {
+            color: #005cbf;
+        }
+        .member-position i {
+            margin-right: 5px;
+            font-size: 1em;
+            transition: transform 0.3s ease;
+        }
+        .member-card:hover .member-position i {
+            transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .member-card:hover .member-position,
+        .member-card:hover .member-name {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        body {
+            background-color: #f0f0f0;
+            background-image: linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0);
+            background-size: 60px 60px;
+            background-position: 0 0, 30px 30px;
+        }
+        #content {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./Logo.png" alt="Champions！候選內閣 Logo" class="logo">
+            <h1>Champions！候選內閣</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> 首頁</a></li>
+                <li><a href="#news"><i class="fas fa-newspaper"></i> 最新消息</a></li>
+                <li><a href="#events"><i class="fas fa-calendar-alt"></i> 活動計劃</a></li>
+                <li><a href="#school-affairs"><i class="fas fa-school"></i> 校内事務</a></li>
+                <li><a href="#welfare"><i class="fas fa-heart"></i> 學生福利</a></li>
+                <li><a href="#members"><i class="fas fa-list"></i> 學生會名單</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> 聯絡我們</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="搜索...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <h2>歡迎來到 Champions！候選內閣</h2>
+            <p>我們是一群充滿熱情和理想的學生，致力於為全體同學提供優質的服務，促進校園文化建設，豐富學生生活。</p>
+            <p class="slogan"><strong>我們的競選口號是：</strong></p>
+            <p class="slogan-highlight">「探索Champions，成為Champions，超越Champions」</p>
+            
+            <!-- 删除图片轮播 -->
+        </section>
+        <!-- 其他部分的内容 -->
+        
+        <section id="contact">
+            <h2>聯絡我們</h2>
+            <p>我們非常重視您的意見和建議。如果您有任何問題或想法，請隨時與我們聯繫。</p>
+            <div class="contact-info">
+                <p>Email：
+                    <a href="mailto:randyxian08@gmail.com" class="email-link">randyxian08@gmail.com</a>, 
+                    <a href="mailto:yutangtang6@gmail.com" class="email-link">yutangtang6@gmail.com</a>
+                </p>
+                <p>Instagram：@klss_champions</p>
+                <p>辦公室地：高雷中學學生活動中心 SU</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024-2025 Champions！候選內閣 版權所有</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/accounts/login/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.klss.edu.hk/" target="_blank" class="social-icon">
+                <i class="fas fa-school"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

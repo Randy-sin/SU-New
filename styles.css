@@ -1,0 +1,62 @@
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin-bottom: 10px;
+}
+
+.event-card ul {
+    padding-left: 20px;
+}
+
+.event-card li {
+    margin-bottom: 5px;
+}
+
+footer .social-icons {
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
+footer .social-icons i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+footer .social-icons .fa-school {
+    font-size: 20px; /* 进一步减小学校图标的大小 */
+}
