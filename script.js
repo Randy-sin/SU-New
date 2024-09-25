@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h4 class="blue-text">2. 促進娛樂與學術的結合</h4>
                 <p>我們將策劃一系列創新活動，讓同學們在娛樂中找到學術的樂趣。我們將舉辦學科比賽、校內外聯合文化活動，以及創意學習工作坊，讓學生們在參與中激發創造力，同時加強對學科知識的理解和應用。</p>
                 <h4 class="blue-text">3. 加強對外聯繫與合作</h4>
-                <p>Champions學生會將打破僅側重校內事務的傳統，積極促進對外交流與合作。我們將組織與其他學校的學術和文化交流活動，為同學們提供拓展視野、增強社會實踐能力的機會。同時，我們會與外部機構合作，引入更多升學和職業規劃指導，幫助同學們更好地為未來做準備</p>
+                <p>Champions學生會將打破僅側重校內事務的傳統，積極促進對外交流與合作。我們將組織與其他學校的學術和文化交流活動，為同學們提供拓展視野、增強社會實踐能力的機會。同時，我們會與外部機構合作，引入更多升學和職業規劃指導，幫助同學們更好地為未來做準備。</p>
                 <h4 class="blue-text">4. 提升校園歸屬感與學生權益</h4>
                 <p>我們將不斷改善校園設施，在校園內推動多關於學生權益的活動，使每一位同學都能感受到被重視和尊重。我們還將開展定期調查，傾聽同學們的需求與建議，確保學生會的每一項工作都切實服務於同學的利益。</p>
                 <p><strong>Champions學生會以<span class="blue-text">「探索Champions，成為Champions，超越Champions」</span>的精神，致力於在學術與娛樂中促進每位同學的成長，激發他們探索潛能、實現夢想並突破自我。</strong></p>
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     '<p>我們誠摯邀請所有同學參與 Champions！候選內閣的首次宣傳活動。屆時我們將介紹我們的理念、目標和計劃。讓我們一起探索如何為學校帶來積極的改變！</p></li>' +
                     '<li><h3>學生會選舉即將開始</h3>' +
                     '<p><i class="far fa-calendar-alt"></i> 日期：2024年10月16日</p>' +
-                    '<p>學生會選舉將於10月16正式開始。我們鼓勵所有學積極參與，為自己心目中的最佳候選內閣投下寶貴的一票。讓我們一起塑造學的未來！</p></li>' +
+                    '<p>學生會選舉將於10月16正式開始。我們鼓勵所有同學積極參與，為自己心目中的最佳候選內閣投下寶貴的一票。讓我們一起塑造學的未來！</p></li>' +
                     '</ul>';
             case 'events':
                 return `
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>活動主題：</strong>「Champions!傳奇揭幕」 （Champions! Legend Unveiled）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
-                            <li>上課前：宣傳、派發宣傳資、廣播介紹午息活動。</li>
+                            <li>上課前：宣傳、派發宣傳物資、廣播介紹午息活動。</li>
                             <li>放學後：在校門口宣傳，follow IG，發放宣傳物品（糖、紙巾）。</li>
                         </ul>
                         <p class="countdown-container">
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>活動主題：</strong>「Champions!之路：啟程，成就，超越」（Champions!:Embark,Achieve,Surpass）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
-                            <li>上課前：禮堂播宣傳片、宣傳活。</li>
+                            <li>上課前：禮堂播宣傳片、宣傳活動。</li>
                             <li>午息：進行「三分戰神」挑戰，先在IG私信報名，挑戰成功的同學可以獲得Champions!紀念品和雪糕，並且進行合照，同時在SAC可以獲得「Champions!免費即影即有體驗」、張貼海報。</li>
                         </ul>
                         <p class="countdown-container">
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：宣傳、派發宣傳物資、廣播介紹午息活動。</li>
-                            <li>午息：舉辦午間旋律」，可以邀請老師或者同學，可以點歌亦可以坐着聽歌、聊天。如果有同學有興趣可以上去唱歌，一起帶動氣氛。同時進行random dance隨機舞蹈。在SAC可以獲得「Champions!免費即影即有體驗」、派發宣傳品、發布寶遊戲的線索與點信息。</li>
+                            <li>午息：「舉辦午間旋律」，可以邀請老師或者同學，可以點歌亦可以坐着聽歌、聊天。如果有同學有興趣可以上去唱歌，一起帶動氣氛。同時進行random dance隨機舞蹈。在SAC可以獲得「Champions!免費即影即有體驗」、派發宣傳品、發布寶遊戲的線索與點信息。</li>
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
                         </ul>
                         <p class="countdown-container">
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="event-card">
                         <h3>10月7號 – 宣傳期第六天</h3>
-                        <p><strong>動主題：</strong>「Champions!尋寶遊戲」（Champions! Treasure Hunt）</p>
+                        <p><strong>活動主題：</strong>「Champions!尋寶遊戲」（Champions! Treasure Hunt）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：宣傳、派發宣傳物資、重申尋寶遊戲的線索與起點信息（全校學生可以自由參與</li>
