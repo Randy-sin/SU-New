@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 
                 <h3 class="section-title">競選目標</h3>
-                <p>Champions學生會的核心競選目標是實現"娛樂與學術兼並"，為我校學生創造一個充滿活力、創新與支持的校園環境。我們相信，學術與娛樂並非對立，而是可以相輔相成，讓學生在輕鬆愉快的氛圍中，提升學習效果和品質。</p>
+                <p>Champions學生會的核心競選目標是實現"娛樂與學術兼並"，為我校學生創造一個充滿活力、創新與支持的校園環境。我們相信，學術與娛樂並非對立，而是可以相輔相成，讓學生在輕鬆愉快的氛圍中，提升學習效果與品質。</p>
                 <h4 class="blue-text">1. 增強學術資源與支持</h4>
                 <p>我們將積極擴大學術資源，為同學們提供更豐富、更靈活的學習機會，包括與其他學校交換模擬卷、設立"圖書館補習員"計劃，並引入"數學小鎮"活動，為常見學術問題提供實時解答，幫助同學們應對學習中的各種挑戰。</p>
                 <h4 class="blue-text">2. 促進娛樂與學術的結合</h4>
@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
                         </ul>
                         <p class="countdown-container">
-                            <span class="countdown-label">倒計時：</span>
+                            <span class="countdown-label">倒計时：</span>
                             <span class="countdown" data-target="2024-10-10">${calculateCountdown('2024-10-10')}</span>
                         </p>
                     </div>
@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="activity-card">
                                 <i class="fas fa-brain activity-icon"></i>
-                                <div class="activity-title">尖子策略交流會</div>
+                                <div class="activity-title">尖子策���交流會</div>
                                 <div class="activity-description">與優秀同學交流學習心得</div>
                             </div>
                         </div>
@@ -673,6 +673,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         margin-left: 50%; /* 将文本左边界移到中心 */
                         transform: translateX(-50%); /* 将文本向左移动自身宽度的一半，实现居中 */
                     }
+                    .new-rule {
+                        background-color: #ffe0e0;
+                        border-left: 5px solid #ff0000;
+                        padding: 10px;
+                        margin-top: 20px;
+                        font-weight: bold;
+                    }
                 `;
                 document.head.appendChild(umbrellaStyle);
 
@@ -700,6 +707,9 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <i class="fas fa-undo"></i>
                                 <p>4. 次日歸還並領取押金</p>
                             </div>
+                        </div>
+                        <div class="new-rule">
+                            <p>新規定：如果兩星期之內借用雨傘無還，就等於買咗把遮，唔會發還按金。</p>
                         </div>
                     </div>
                 `;
