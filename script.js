@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h2 style="margin-bottom: 1.5em;"><i class="fas fa-calendar-alt"></i> 活動計劃</h2>
                 <div class="event-list">
                     <div class="event-card">
-                        <h3>9月27號 – 宣傳期第一天</h3>
+                        <h3>9月26號 – 宣傳期第一天</h3>
                         <p><strong>活動主題：</strong>「探尋Champions!」 （Champions! Discovery Day）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
@@ -235,11 +235,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         </ul>
                         <p class="countdown-container">
                             <span class="countdown-label">倒計時：</span>
-                            <span class="countdown" data-target="2024-09-27">${calculateCountdown('2024-09-27')}</span>
+                            <span class="countdown" data-target="2024-09-26">${calculateCountdown('2024-09-26')}</span>
                         </p>
                     </div>
                     <div class="event-card">
-                        <h3>9月28號 – 宣傳期第二天</h3>
+                        <h3>9月27號 – 宣傳期第二天</h3>
                         <p><strong>活動主題：</strong>「Champions!傳奇揭幕」 （Champions! Legend Unveiled）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </ul>
                         <p class="countdown-container">
                             <span class="countdown-label">倒計時：</span>
-                            <span class="countdown" data-target="2024-09-28">${calculateCountdown('2024-09-28')}</span>
+                            <span class="countdown" data-target="2024-09-27">${calculateCountdown('2024-09-27')}</span>
                         </p>
                     </div>
                     <div class="event-card">
