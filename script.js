@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="activity-card">
                                 <i class="fas fa-brain activity-icon"></i>
-                                <div class="activity-title">尖子策���交流會</div>
+                                <div class="activity-title">尖子策略交流會</div>
                                 <div class="activity-description">與優秀同學交流學習心得</div>
                             </div>
                         </div>
