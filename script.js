@@ -257,7 +257,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：禮堂播宣傳片、宣傳活動。</li>
-                            <li>午息：進行「三分戰神」挑戰，先在IG私信報名，挑戰成功的同學可以獲得Champions!紀念品和雪糕，並且進行合照，同時在SAC可以獲得「Champions!免費即影即有體驗」、張貼海報。</li>
                         </ul>
                         <p class="countdown-container">
                             <span class="countdown-label">倒計時：</span>
@@ -270,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：學生會成員穿著運動裝，進行簡單的運動宣傳，派發宣傳單張和糖果，介紹午息的趣味活動。</li>
-                            <li>午息：舉辦「健康知識快問快答」，回答與運動或健康相關的小問題，答對的可獲得專屬筆或糖果。同時在SAC進行即影即有拍攝，並發放糖果和紙巾。</li>
+                            <li>午息：進行「三分戰神」挑戰，先在IG私信報名，挑戰成功的同學可以獲得Champions!紀念品和雪糕，並且進行合照，同時在SAC可以獲得「Champions!免費即影即有體驗」、張貼海報。</li>
                             <li>放學後：門口宣傳，follow IG，發放宣傳物品（糖果和紙巾），鼓勵大家參與接下來的活動。</li>
                         </ul>
                         <p class="countdown-container">
@@ -616,7 +615,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="welfare-item"><i class="fas fa-pencil-alt"></i><span>文具售賣</span></div>
                         <div class="welfare-item"><i class="fas fa-thermometer-half"></i><span>暖包售賣</span></div>
                         <div class="welfare-item"><i class="fas fa-female"></i><span>女性用品售賣</span></div>
-                        <div class="welfare-item"><i class="fas fa-tint"></i><span>爭取改善飲水機水質</span></div>
+                        <div class="welfare-item"><i class="fas fa-tint"></i><span>爭取添置飲水機</span></div>
                         <div class="welfare-item welfare-continuation"><span>上一屆所有學生會的福利繼續延續！</span></div>
                     </div>
                     <p class="welfare-note">我們承诺，所有福利均免費提供，無任何隱藏利潤。</p>
