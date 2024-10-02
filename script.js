@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：學生會成員穿著運動裝，進行簡單的運動宣傳，派發宣傳單張和糖果，介紹午息的趣味活動。</li>
-                            <li>午息：進行「三分戰神」挑戰，先在IG私信報名，挑戰成功的同學可以獲得Champions!紀念品和雪糕，並且進行合照，同時在SAC可以獲得「Champions!免費即影即有體驗」、張貼海報。</li>
+                            <li>午息：進行「三分戰神」挑戰，先在IG私信報名，挑戰成功的同學可以獲得Champions!紀念品和雪糕，並且進行合照。</li>
                             <li>放學後：門口宣傳，follow IG，發放宣傳物品（糖果和紙巾），鼓勵大家參與接下來的活動。</li>
                         </ul>
                         <p class="countdown-container">
