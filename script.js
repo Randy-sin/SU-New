@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：宣傳、派發宣傳物資、廣播介紹午息活動。</li>
-                            <li>午息：「舉辦午間旋律」，可以邀請老師或者同學，可以點歌亦可以坐着聽歌、聊天。如果有同學有興趣可以上去唱歌，一起帶動氣氛。同時進行random dance隨機舞蹈。在SAC可以獲得「Champions!免費即影即有體驗」、派發宣傳品、發布寶遊戲的線索與點信息。</li>
+                            <li>午息：「舉辦午間旋律」，可以邀請老師或者同學，可以點歌亦可以坐着聽歌、聊天。如果有同學有興趣可以上去唱歌，一起帶動氣氛。同時進行random dance隨機舞蹈。</li>
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
                         </ul>
                         <p class="countdown-container">
