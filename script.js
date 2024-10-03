@@ -279,11 +279,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="event-card">
                         <h3>10月4號 – 宣傳期第五天</h3>
-                        <p><strong>活動主題：</strong>「Champions!之路：追求，创造，征服」（Champions!:Pursue, Create, Conquer）</p>
+                        <p><strong>活動主題：</strong>「Champions!之路：追求，創造，征服」（Champions!:Pursue, Create, Conquer）</p>
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：宣傳、派發宣傳物資、廣播介紹午息活動。</li>
-                            <li>午息：「舉辦午間旋律」，可以邀請老師或者同學，可以點歌亦可以坐着聽歌、聊天。如果有同學有興趣可以上去唱歌，一起帶動氣氛。同時進行random dance隨機舞蹈。</li>
+                            <li>午息：在canteen進行random dance隨機舞蹈。</li>
                             <li>放學後：在學校門口宣傳，follow IG，發放宣傳物品（糖）。</li>
                         </ul>
                         <p class="countdown-container">
@@ -326,6 +326,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p><strong>時間安排：</strong></p>
                         <ul>
                             <li>上課前：派發投票指南和筆，介紹午息的學術對決活動。</li>
+                            <li>午息：「舉辦午間旋律」，可以邀請老師或者同學，可以點歌亦可以坐着聽歌、聊天。如果有同學有興趣可以上去唱歌，一起帶動氣氛。</li>
                             <li>放學後：門口宣傳，follow IG，發放糖果和紙巾，提醒同學積極參與接下來的投票。</li>
                         </ul>
                         <p class="countdown-container">
